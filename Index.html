@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagan Beyond Border</title>
+    <link rel="icon" type="image" href="hlogo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <style>
+        .head{
+	        position: relative;
+	        text-align: center;
+	        padding-top: 2px;
+	        font-size: 17px;
+        }
+        .head a{
+	        text-decoration: none;
+	        padding-top: 10px;
+	        color: black;
+        }
+
+        .head :hover{
+	        color: #702963;
+        }
+
+        .phead{
+	        font-family: garamond;
+	        font-size: 18px;
+        }
+
+        .topnav{
+	        overflow: hidden;
+	        font-family: garamond;
+        }
+
+        .topnav a{
+	        float: left;
+	        color: #0C0F2E;
+	        text-align: center;
+  	        padding: 14px 16px;
+  	        text-decoration: none;
+  	        font-size: 21px;
+	        font: bold;
+        }
+
+        .topnav a:hover {
+	        background-color:	#702963;
+	        color: white;
+            transition-duration: 2s;
+            letter-spacing: 3px;
+        }
+
+        .topnav a.active {
+	        background-color: #04AA6D;
+	        color: white;
+        }
+
+
+        h1{
+	        text-align: center;
+	        font-family: garamond;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(249, 234, 249);
+        }
+
+        p{
+	margin: 20px 0;
+}
+
+.mylogo{
+	margin: auto;
+	display: flex;
+	color: #606060;
+	margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.img{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	width: 100%;
+	border-radius: 20px;
+}
+
+
+.container{
+	position: relative;
+}
+
+
+.text-block{
+	position: absolute;
+	bottom: 570px;
+	/* right: 50px;
+	left: 500px; */
+    right: 790px;
+	left: 40px;
+	color: #702963;
+	font-family: garamond;
+	font-size: 20px;
+	line-height: 30px;
+    font-weight: bold;
+}
+
+.Ph{
+    font-size: 30px;
+    font-family: garamond;
+}
+.text-block .pp:hover{
+	color: #6F4E37;
+	cursor: pointer;
+}
+
+#hr{
+	width:70%;
+    height: 1px;
+	text-align:left;
+	margin: left 50px;
+	background-color: #000042;
+}
+
+.p3{
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.img1{
+	width: 50%;
+	margin-left: 350px;
+	border-radius: 30px;
+}
+
+.hov{
+	position: relative;
+	height: auto;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	opacity: 0;
+	transition: .1s ease;
+	background-color: #A7C7E7;
+	margin-left: 350px;
+	border-radius: 30px;
+}
+
+.hov:hover .overlay{
+	opacity: 1;
+	
+}
+
+.text {
+	color: darkblue;
+	font-family: garamond;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+   
+  }
+
+.ppp{
+    font-family: garamond;
+    font-size: 50px;
+}
+
+#hr3{
+	margin-left: 450px;
+}
+
+
+.wrapper {
+    height: 420px;
+    width: 654px;   
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    float: left;
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  .lop{
+    float: left;
+    height: 420px;
+    width: 327px;
+  }
+  
+  .lop img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .ptext {
+    height: 300px;
+    width: 330px;
+  }
+  
+  .ptext h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: black;
+  }
+  
+  .ptext h1,
+  .product-price-btn p {
+    font-family: 'Bentham', serif;
+  }
+  
+  .ptext h3 {
+    margin: 0 0 47px 38px;
+    font-size: 12px;
+    font-family: garamond;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.2em;
+  }
+  
+  .ptext p {
+    height: 125px;
+    margin: 0 2px 0 38px;
+    font-family: garamond;
+    color: black;
+    line-height: 1.7em;
+    font-size: 18px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+  
+
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: garamond;
+    font-size: 18px;
+  }
+  
+  h1{
+    font-weight: normal;
+  }
+  
+  footer{
+    background: #AA98A9 ;
+	padding: 70px;
+	height: 5px;
+  }
+
+  .icon{
+    size: 500px;
+  }
+ 
+    </style>
+</head>
+<body>
+
+    <div class="head">
+        <p class="phead">🌤 Began Beyond Border 🌤</p>
+    </div>
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="#H">History</a>
+        <a href="#P">Places</a>
+        <a href="#A">Art</a>
+        <a href="#Ar">Architectures</a>
+        <a href="Others.html">Others</a>
+    </div>
+
+    
+
+    <div>
+        <h1>Discover the beauty of Bagan</h1>
+    </div>
+
+    <div>
+        <a href=""><img src="Logo.jpg" width="150px" height="90px" class="mylogo"></a>
+    </div>
+
+
+    <div class="container">
+        <img src="Hisss.webp"  class="img"/>
+
+        <div class="text-block">
+            <p class="pp"><h2 id="H">History</h2><br><font size="6px">"T</font>he Bagan Empire was a powerful kingdom that flourished in Myanmar from the 9th to the 13th centuries. Its zenith was during the 11th and 13th centuries when it became a major center of Buddhist culture and learning. The city of Bagan, located on the banks of the Irrawaddy River, was the capital and the heart of the empire. Bagan is renowned for its vast archaeological site, 
+                which features over 2,000 well-preserved pagodas and temples. 
+                Despite its fall, Bagan remains a significant historical and cultural landmark, 
+                drawing visitors from around the world to explore its ancient ruins and experience the legacy of this once-thriving civilization."</p>
+        </div>
+    </div>
+    <br>
+
+    <hr id = "hr"><br>
+
+    <div class="p3">
+        <h2 class="Ph" id="P">Places</h2>
+    </div>
+
+    <div class="hov">
+        <img src="Pla.jpg!d" class="img1"/>
+        <div class="overlay">
+            <div class="middle">
+            <div class="text">
+                Bagan, Myanmar, is famous for its vast archaeological site featuring thousands of temples and pagodas. Highlights include the Shwezigon Pagoda, Ananda Temple, Dhammayangyi Temple, Sulamani Temple, and Thatbyinnyu Temple. The city's skyline, especially during sunrise and sunset, is a mesmerizing display of ancient architecture against the golden.
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <p id="hr3">&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;
+        &ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;
+        &ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;&ast; &midast;
+    </p>
+
+    <div class="wrapper">
+        <div class="lop">
+          <a href="Index.html"><img src="art.jpg" height="420px" width="350px"></a>
+        </div>
+
+        <div class="info">
+          <div class="ptext">
+            <h1 id="A">Arts</h1><br>
+            <p>    Bagan is particularly renowned for its architecture, sculpture, and mural paintings, all of which reflect the influence of Buddhism and the artistic traditions of the region. </p>
+          </div>
+          <br>
+          
+        </div>
+<br>
+        <div class="lop" >
+            <a href="Index.html"><img src="archi.jpg" height="420px" width="350px"></a>
+          </div>
+  
+          <div class="info">
+            <div class="ptext">
+              <h1 id="Ar">Architectures</h1><br>
+              <p>  Bagan's architecture, those structures, blending Indian, Mon, and Burmese influences, feature intricate carvings and towering spires.</p>
+            </div>
+            <br>
+            
+          </div>
+    </div>
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    
+        <div>
+            <a href="Others.html" class="icon"><center><i class="fa-solid fa-arrows-turn-right"></i></center></a>
+
+        </div>
+        
+    
+    <br> <br><br>
+
+</body>
+</html>
